@@ -1,0 +1,20 @@
+name: PhonePlugin
+version: 1.0.0
+main: com.eaglercraft.phone.PhonePlugin
+api-version: 1.12
+author: YourName
+description: A feature-rich phone system for Eaglercraft
+
+commands:
+  phone:
+    description: Opens your phone
+    usage: /phone
+    aliases: [mobile, cell]
+
+permissions:
+  phone.use:
+    description: Allows using the phone
+    default: true
+  phone.admin:
+    description: Admin phone permissions
+    default: op
